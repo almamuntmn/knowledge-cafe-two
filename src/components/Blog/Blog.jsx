@@ -1,5 +1,5 @@
 import { FaRegBookmark } from "react-icons/fa";
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmark, markAsRead }) => {
 
     const { title, cover, author, img, reading_time, date, hashtag } = blog
 
@@ -17,7 +17,7 @@ const Blog = ({ blog }) => {
                 </div>
                 <div>
                     <span>{reading_time} min read</span>
-                    <button className="ml-2"
+                    <button onClick={()=>handleAddToBookmark(blog)} className="ml-2"
                     ><FaRegBookmark></FaRegBookmark></button>
                 </div>
 
@@ -28,6 +28,7 @@ const Blog = ({ blog }) => {
                     hashtag.map((hash, idx)=><span key={idx}><a href="">{hash} </a></span>)
                 }
             </p>
+            <button className="block text-left text-purple-500 underline" onClick={() => markAsRead(reading_time)}>Mark as Read</button>
         </div>
     );
 };
