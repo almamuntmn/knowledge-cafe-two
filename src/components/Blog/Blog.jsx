@@ -1,10 +1,12 @@
+import { FaRegBookmark } from "react-icons/fa";
 const Blog = ({ blog }) => {
 
     const { title, cover, author, img, reading_time, date, hashtag } = blog
 
     return (
         <div className="">
-            <img className="mb-8" src={cover} alt="" />
+            <img className="my-8 rounded-xl" src={cover} alt="" />
+            <hr />
             <div className="flex justify-between mt-3">
                 <div className="flex gap-3 mb-2 items-center">
                     <img className="rounded-full w-12 h-12" src={img} alt="" />
@@ -15,10 +17,12 @@ const Blog = ({ blog }) => {
                 </div>
                 <div>
                     <span>{reading_time} min read</span>
+                    <button className="ml-2"
+                    ><FaRegBookmark></FaRegBookmark></button>
                 </div>
 
             </div>
-            <h2 className="text-3xl font-bold text-left">{title}</h2>
+            <h2 className="text-3xl font-bold text-left my-4">{title}</h2>
             <p className="text-left text-gray-700">
                 {
                     hashtag.map((hash, idx)=><span key={idx}><a href="">{hash} </a></span>)
