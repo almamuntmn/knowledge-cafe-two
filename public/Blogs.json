@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of Artificial Intelligence",
+    "cover": "https://picsum.photos/800/400?random=1",
+    "author": "Sophia Carter",
+    "img": "https://picsum.photos/100/100?random=11",
+    "posted": "Tech Today",
+    "date": "2025-08-10",
+    "reading_time": 5,
+    "hashtag": ["#technology", "#ai", "#future"]
+  },
+  {
+    "id": 2,
+    "title": "Creative Branding Tips for 2025",
+    "cover": "https://picsum.photos/800/400?random=2",
+    "author": "Liam Anderson",
+    "img": "https://picsum.photos/100/100?random=12",
+    "posted": "Creative Minds",
+    "date": "2025-07-25",
+    "reading_time": 8,
+    "hashtag": ["#design", "#inspiration", "#branding"]
+  },
+  {
+    "id": 3,
+    "title": "Healthy Living in a Busy World",
+    "cover": "https://picsum.photos/800/400?random=3",
+    "author": "Ava Johnson",
+    "img": "https://picsum.photos/100/100?random=13",
+    "posted": "Health Hub",
+    "date": "2025-06-15",
+    "reading_time": 6,
+    "hashtag": ["#health", "#lifestyle", "#wellness"]
+  },
+  {
+    "id": 4,
+    "title": "Mastering JavaScript for Beginners",
+    "cover": "https://picsum.photos/800/400?random=4",
+    "author": "Noah Martinez",
+    "img": "https://picsum.photos/100/100?random=14",
+    "posted": "Code World",
+    "date": "2025-08-01",
+    "reading_time": 10,
+    "hashtag": ["#javascript", "#webdev", "#programming"]
+  },
+  {
+    "id": 5,
+    "title": "10 Quick & Easy Summer Recipes",
+    "cover": "https://picsum.photos/800/400?random=5",
+    "author": "Emma Brown",
+    "img": "https://picsum.photos/100/100?random=15",
+    "posted": "Foodie Life",
+    "date": "2025-07-30",
+    "reading_time": 4,
+    "hashtag": ["#food", "#recipes", "#cooking"]
+  }
+]
